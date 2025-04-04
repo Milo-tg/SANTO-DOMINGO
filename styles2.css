@@ -1,0 +1,140 @@
+
+body {
+    font-family: 'Castellar';
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('FONDO.png');
+    color: #f0c268
+   
+}
+ 
+header {
+    background: linear-gradient(to right, #2d1b12, #4b2c20);
+    font-family: 'Castellar';
+    color:  #f4c873;
+    font-weight: bold;
+    padding: 1em;
+    font-size: 1.8em;
+    justify-items: flex-start;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-regresar {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    margin: 2em;
+    background-color: #342f28; 
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    font-size: .5em;
+    font-weight: bold;
+    border-radius: 0.5em;
+    transition: background 0.3s ease-in-out;
+    box-shadow: 0 0.25em 0.5em  #eca81f96;
+}
+
+.btn-regresar:hover {
+    background-color: #7e7972; 
+}
+header img{
+    margin-right: 1em;
+    margin-left: 1.5em;
+    width: 4em;
+    height: 4em;
+}
+header .p{
+    align-items: center;
+   
+}
+.container p{
+    color:#ffffff;
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+}
+ 
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2em;
+    gap: 1.5em;
+}
+ 
+.card {
+    background-color: hsla(36, 43%, 15%, 0.627);;
+    border-radius: 0.8em;
+    box-shadow: 0 0.25em 0.5em  #f4c873;
+    padding: 1.5em;
+    width: 18em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.final{
+padding: 1.5em;
+width: 90%;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 4em;
+}
+.historia{
+    background-color: hsla(36, 43%, 15%, 0.627);;
+    border-radius: 0.8em;
+    box-shadow: 0 0.25em 0.5em  #f4c873;
+    padding: 1.5em;
+    color:#ffffff;
+    font-size: 1.3em;
+    font-family: 'Poppins';
+    margin: 2em;
+    width: 90%;
+}
+.historia h2{
+    font-family: 'Castellar';
+    color:  #f4c873;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.reserva h2{
+    font-family: 'Castellar';
+    color:  #f4c873;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.reserva{
+    background-color: hsla(36, 43%, 15%, 0.627);;
+    border-radius: 0.8em;
+    box-shadow: 0 0.25em 0.5em  #f4c873;
+    padding: 1.5em;
+    color:#ffffff;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    margin: 2em;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.contenido{
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.reserva img{
+    width: 20em;
+    height: 20em;
+}
+.card img {
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+}
